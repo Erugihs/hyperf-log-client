@@ -1,0 +1,20 @@
+{
+    "name": "suntekcorps/log-client",
+    "description": "suntekcorps",
+    "authors": [
+        {
+            "name": "nzhou",
+            "email": "nzhou@suntekcorps.com"
+        }
+    ],
+    "require": {
+		"php": ">=7.2"
+	},
+	"autoload": {
+    "classmap": [
+    ],
+    "psr-4": {
+      "Hyperf\\Mongodb\\": "src"
+    }
+  }
+}
