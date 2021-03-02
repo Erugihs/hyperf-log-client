@@ -1,5 +1,5 @@
 {
-    "name": "suntekcorps/log-client",
+    "name": "suntekcorps/hyperf-log-client",
     "description": "suntekcorps",
     "authors": [
         {
@@ -8,13 +8,14 @@
         }
     ],
     "require": {
-		"php": ">=7.2"
-	},
-	"autoload": {
-    "classmap": [
-    ],
-    "psr-4": {
-      "Hyperf\\Mongodb\\": "src"
+        "php": ">=7.2",
+        "hyperf/rpc-client": "^2.0"
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {
+            "Hyperf\\Mongodb\\": "src"
+        }
     }
-  }
 }
