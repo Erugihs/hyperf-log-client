@@ -1,7 +1,7 @@
 # suntekcorps log client
 基于 hyperf/rpc-client 2.0 的客户端代码
 ```
-composer require suntekcorps/log-client
+composer require suntekcorps/hyperf-log-client
 ```
 
 ## config 
