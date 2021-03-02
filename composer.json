@@ -15,7 +15,7 @@
         "classmap": [
         ],
         "psr-4": {
-            "STK\\Client\\Log": "src"
+            "STK\\Client\\Log\\": "src"
         }
     }
 }
