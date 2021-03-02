@@ -15,7 +15,7 @@
         "classmap": [
         ],
         "psr-4": {
-            "Hyperf\\Mongodb\\": "src"
+            "STK\\Client\\Log": "src"
         }
     }
 }
