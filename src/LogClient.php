@@ -16,6 +16,7 @@ class LogClient extends LogBase
     public function addLog($logData)
     {
         try {
+            $logData = $this->setUnsetValueByDefaults($logData);
             $logData = $this->relationsAttribute($logData);
             return $this->logSvc->write($this->table, $logData);
         } catch (\Throwable $e) {
